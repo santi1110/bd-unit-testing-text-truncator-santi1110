@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-23T17:30:50" hostname="Jamies-MacBook-Pro.local" time="0.023">
+<testsuite name="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-03-20T22:47:20" hostname="Dell-Latitude-3520" time="0.032">
   <properties/>
-  <testcase name="truncateTo_stringLongerThanNumChars_shortensToFirstNumChars()" classname="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" time="0.023"/>
+  <testcase name="truncatoTo_suffix_returnappend()" classname="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" time="0.028"/>
+  <testcase name="truncateTo_stringLongerThanNumChars_shortensToFirstNumChars()" classname="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" time="0.001"/>
+  <testcase name="truncateTo_desiredlenght_returnString()" classname="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" time="0.001"/>
+  <testcase name="truncateTo_nullString_NotFail()" classname="com.amazon.ata.unittesting.texttruncator.TextTruncatorTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
